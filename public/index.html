@@ -1,67 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
   <head>
     <meta charset="UTF-8">
     <title>Scraping With Mongoose</title>
-    <style>
-      body { 
-        background: url('assets/img/joanna.jpg') no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-        background-size: cover;
-      }
-      
-      .headline {
-        font-size: 60px;
-        color: #B31C07;
-      }
-  
-      #wrapper {
-        width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5%;
-      }
-      #articles {
-        display: inline-block;
-        overflow: auto;
-        background-color: white;
-        opacity: 0.75;
-        width: 60%;
-        padding: 10px;
-      }
-      #notes {
-        position: fixed;
-        left: 950px;
-        top: 350px;
-        width: 30%;
-      }
-      textarea, input {
-        display: block;
-        width: 100%;
-        background-color: white;
-        opacity: 0.75;
-      }
-      input {
-        height: 36px;
-        font-size: 24px;
-      }
-      textarea {
-        height: 150px;
-        font-size: 18px;
-      }
-    </style>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <!--link to google font-->
+    <link href="https://fonts.googleapis.com/css?family=Oregano|Quando" rel="stylesheet">
+
+    <!--link to CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
+
   <body>
+    <!--Div to hold content-->
     <div id="wrapper">
       <p class="headline">Blogs by Joanna Gains</p>
       <div id="articles"></div>
       <div id="notes"></div>
     </div>
+
+    <!--link to JQery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--link to javascript-->
     <script src="app.js"></script>
   </body>
+
 </html>
