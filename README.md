@@ -7,3 +7,5 @@ Node packages from Mongoose, Morgan, express and body-parser.
 
 # Deployed
 https://mongoose-scrapie.herokuapp.com/
+
+![scrapeMongoose](https://github.com/misscheryvang/scrapeMongoose/blob/master/public/assets/screenshot/scrapeScreen.png)
